@@ -2,7 +2,7 @@
 import subprocess
 
 #Use DOS/Win comand (for linux the same)
-subprocess.call(["dir","C:","/w"])
+subprocess.call(["ls","-a","/"])
 print("\n")
 
 #Info about system(linux)
