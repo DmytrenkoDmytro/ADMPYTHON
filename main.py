@@ -2,7 +2,7 @@
 import subprocess
 
 #Use DOS/Win comand (for linux the same)
-<<<<<<< HEAD
+
 def osco(c,a,p)
     subprocess.call([c,a,p])
     print("\n")
