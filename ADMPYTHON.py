@@ -3,13 +3,16 @@ import subprocess
 
 #Use DOS/Win comand (for linux the same)
 
-def osco(c,a,p)
+def osco(c,a,p):
+    c=''
+    a=''
+    p=''
     subprocess.call([c,a,p])
     print("\n")
 
 
 #Info about system(linux)
-def osinfo()
+def osinfo():
     #command 1
     uname ="uname"
     uname_arg ="-a"
