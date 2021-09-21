@@ -1,7 +1,7 @@
 
 import subprocess
 
-#Use DOS/Win comand (for linux the same)
+#Use DOS/Win/linux command
 
 def osco(c,a,p):
     c=''
