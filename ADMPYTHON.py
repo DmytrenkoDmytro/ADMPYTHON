@@ -4,9 +4,7 @@ import subprocess
 #Use DOS/Win/linux command
 
 def osco(c,a,p):
-    c=''
-    a=''
-    p=''
+
     subprocess.call([c,a,p])
     print("\n")
 
